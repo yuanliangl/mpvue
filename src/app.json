@@ -1,44 +1,40 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/find/main",
+    "pages/store/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "color": "#999",
     "backgroundColor": "#fafafa",
     "selectedColor": "#333",
-    "borderStyle": "white",
-
+    "borderStyle": "black",
     "list": [{
-      "text": "首页",
+      "text": "展会活动",
       "pagePath": "pages/index/main",
-      "iconPath": "static/tabs/home.png",
-      "selectedIconPath": "static/tabs/home-active.png"
+      "iconPath": "/static/tabs/zhanhuihuodong.png",
+      "selectedIconPath": "static/tabs/zhanhuihuodong1.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
-      "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
-    }],
-
-    "items": [{
-      "name": "首页",
+      "text": "发现宝贝",
+      "pagePath": "pages/find/main",
+      "iconPath": "static/tabs/faxian.png",
+      "selectedIconPath": "static/tabs/faxian1.png"
+    },
+    {
+      "text": "明星店铺",
       "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }],
+      "iconPath": "/static/tabs/dianpu.png",
+      "selectedIconPath": "static/tabs/dianpu1.png"
+    }
+  
+  ],
     "position": "bottom"
   }
 }

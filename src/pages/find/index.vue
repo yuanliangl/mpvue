@@ -12,13 +12,13 @@ export default {
   },
 
   components: {
+
   },
 
   methods: {
   },
 
-  created () {
-  }
+  created () {}
 }
 </script>
 
